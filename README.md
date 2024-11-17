@@ -15,6 +15,11 @@ $ ./curlduck.sh
 Belgium
 ```
 
+Dependencies
+============
+
+curl grep awk sed jq tr
+
 Links
 =====
 
