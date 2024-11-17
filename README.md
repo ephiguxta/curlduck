@@ -3,6 +3,18 @@ Curlduck
 
 A simple curl script to ask questions to Duckduckgo LLMs (Llama3, etc...)
 
+Usage
+=====
+
+Right now the question `Which country has the best beers in the world? Output only one word` is hardcoded in the script.
+
+Example:
+
+```
+$ ./curlduck.sh
+Belgium
+```
+
 Links
 =====
 
