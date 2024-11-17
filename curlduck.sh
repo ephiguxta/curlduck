@@ -17,7 +17,7 @@ curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
     "model": "'$MODEL'",
     "messages": [
         {
-            "content": "Which country has the best beers in the world? Output only one word",
+            "content": "What is the superficy of the earth in square kilometers?",
             "role": "user"
         }
     ]
