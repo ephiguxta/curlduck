@@ -1,7 +1,4 @@
 #!/bin/bash
-#TODO:
-# 1. check_commands curl grep awk sed jq tr
-# 2. available models
 
 DUCKDUCKGO_STATUS_URL='https://duckduckgo.com/duckchat/v1/status'
 DUCKDUCKGO_CHAT_URL='https://duckduckgo.com/duckchat/v1/chat'
