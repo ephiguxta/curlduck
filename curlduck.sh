@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 DUCKDUCKGO_STATUS_URL='https://duckduckgo.com/duckchat/v1/status'
 DUCKDUCKGO_CHAT_URL='https://duckduckgo.com/duckchat/v1/chat'
