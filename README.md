@@ -6,12 +6,12 @@ A simple curl script to ask questions to Duckduckgo LLMs (Llama3, etc...)
 Usage
 =====
 
-Right now the question `What is the superficy of the earth in square kilometers?` is hardcoded in the script.
+`curlduck.sh "question"`
 
 Example:
 
 ```
-$ ./curlduck.sh
+$ ./curlduck.sh "What is the surface area of the earth in square kilometers?"
 The surface area of the Earth is approximately 510,065,600 square kilometers.
 ```
 
