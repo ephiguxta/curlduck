@@ -2,7 +2,6 @@
 #TODO:
 # 1. check_commands curl grep awk sed jq tr
 # 2. available models
-# 3. pass the question as argument
 
 DUCKDUCKGO_STATUS_URL='https://duckduckgo.com/duckchat/v1/status'
 DUCKDUCKGO_CHAT_URL='https://duckduckgo.com/duckchat/v1/chat'
@@ -17,7 +16,7 @@ curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
     "model": "'$MODEL'",
     "messages": [
         {
-            "content": "What is the superficy of the earth in square kilometers?",
+            "content": "'"$1"'",
             "role": "user"
         }
     ]
