@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]; then
   echo "Error: No question provided."
-  echo "Example: ./$0 \"\What is the distance between the Earth and the Moon?""
+  echo "Example: $0 \"What is the distance between the Earth and the Moon?\" "
   exit 1
 fi
 
