@@ -27,7 +27,7 @@ Todo
 ====
 
 * add a usage example if argument is not provided
-* --add a check_commands if 'curl grep awk sed jq tr' are not installed--
+* ~~add a check_commands if 'curl grep awk sed jq tr' are not installed~~
 * add an option to specify another model (llama3, gpt4o, mixtral, claude3)
 
 Links
