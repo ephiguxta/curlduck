@@ -3,7 +3,7 @@
 check_commands() {
   for cmd in "$@"; do
     if command -v "$cmd" &> /dev/null; then
-      echo "$cmd is installed and available."
+      true
     else
       echo "$cmd is not installed or not available in the system's PATH."
     fi
