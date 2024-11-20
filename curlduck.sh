@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ $# -eq 0 ]; then
+  echo "Error: No question provided."
+  echo "Example: ./$0 \"\What is the distance between the Earth and the Moon?""
+  exit 1
+fi
+
 check_commands() {
   for cmd in "$@"; do
     if ! command -v "$cmd" &> /dev/null; then
