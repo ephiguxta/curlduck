@@ -21,7 +21,7 @@ VQD_RESPONSE=$(curl -s -D - -H "x-vqd-accept: 1" $DUCKDUCKGO_STATUS_URL)
 VQD_VALUE=$(echo "$VQD_RESPONSE" | grep -i "x-vqd-4:" | awk '{print $2}' | tr -d '\r')
 MODEL="meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
 
-curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
+msg=$(curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
 -H "Content-Type: application/json" \
 -H "x-vqd-4: $VQD_VALUE" \
 -d '{
@@ -32,5 +32,11 @@ curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
             "role": "user"
         }
     ]
-}' -o - | grep -Po '"message":.*?[^\\]",' | awk -F':' '{print $2}' | sed -e "s/\"//g" -e "s/,//g" | tr -d '\n'
-echo -e "\n"
+}' -o - | grep -Po '(?<="message":)([[:print:]])+(?=,"created){1}')
+
+# we need this to avoid param expansion
+set -f
+
+text=$(echo ${msg})
+echo -e ${text//\" \"/}
+set +f
