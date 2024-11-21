@@ -44,3 +44,4 @@ Links
 * https://github.com/SixArm/curl-chatgpt
 * https://github.com/benoitpetit/duckduckGO-chat-cli
 * https://github.com/HuggingBear/DuckDuckGo-AI
+* https://github.com/mumu-lhl/duckduckgo-ai-chat
