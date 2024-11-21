@@ -45,3 +45,4 @@ Links
 * https://github.com/benoitpetit/duckduckGO-chat-cli
 * https://github.com/HuggingBear/DuckDuckGo-AI
 * https://github.com/mumu-lhl/duckduckgo-ai-chat
+* https://arstechnica.com/information-technology/2024/06/duckduckgo-offers-anonymous-access-to-ai-chatbots-through-new-service/
