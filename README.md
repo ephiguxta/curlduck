@@ -21,7 +21,7 @@ The surface area of the Earth is approximately 510,065,600 square kilometers.
 Dependencies
 ============
 
-curl grep awk sed tr
+bash curl grep awk sed tr
 
 Todo
 ====
