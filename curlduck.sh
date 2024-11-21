@@ -13,7 +13,7 @@ check_commands() {
     fi
   done
 }
-check_commands curl jq sed tr awk grep echo
+check_commands curl sed tr awk grep echo
 
 DUCKDUCKGO_STATUS_URL='https://duckduckgo.com/duckchat/v1/status'
 DUCKDUCKGO_CHAT_URL='https://duckduckgo.com/duckchat/v1/chat'
@@ -32,5 +32,5 @@ curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
             "role": "user"
         }
     ]
-}' -o - | sed -e '/^$/d' -e "s/data://g" -e '/\[DONE\]/d' | jq -r .message | tr -d '\n'
+}' -o - | grep -Po '"message":.*?[^\\]",' | awk -F':' '{print $2}' | sed -e "s/\"//g" -e "s/,//g" | tr -d '\n'
 echo -e "\n"
