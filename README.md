@@ -21,14 +21,14 @@ The surface area of the Earth is approximately 510,065,600 square kilometers.
 Dependencies
 ============
 
-curl grep awk sed jq tr
+curl grep awk sed tr
 
 Todo
 ====
 
 * ~~add a usage example if argument is not provided~~
 * ~~add a check_commands if 'curl grep awk sed jq tr' are not installed~~
-* replace JQ by awk or sed equivalent
+* ~~replace JQ by awk or sed equivalent~~
 * add an option to specify another model (llama3, gpt4o, mixtral, claude3)
 
 Links
