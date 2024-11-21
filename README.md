@@ -1,7 +1,7 @@
 Curlduck
 ========
 
-A simple curl shell script to ask questions to [Duckduckgo AIChat
+A simple curl+grep shell script to ask questions to [Duckduckgo AIChat
 LLMs](https://duckduckgo.com/aichat) (Llama3, etc...).
 
 Usage
@@ -21,7 +21,7 @@ The surface area of the Earth is approximately 510,065,600 square kilometers.
 Dependencies
 ============
 
-bash curl grep awk sed tr
+bash curl grep
 
 Todo
 ====
@@ -29,6 +29,7 @@ Todo
 * ~~add a usage example if argument is not provided~~
 * ~~add a check_commands if 'curl grep awk sed jq tr' are not installed~~
 * ~~replace JQ by awk or sed equivalent~~
+* curl does not have a simple way to output a particular header (x-vqd-4)
 * remove JSON processing with stream set to false? Give an error 500 bad request?
 * add an option to specify another model (llama3, gpt4o, mixtral, claude3)
 
