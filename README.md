@@ -1,7 +1,7 @@
 Curlduck
 ========
 
-A simple curl+jq shell script to ask questions to [Duckduckgo AIChat
+A simple curl shell script to ask questions to [Duckduckgo AIChat
 LLMs](https://duckduckgo.com/aichat) (Llama3, etc...).
 
 Usage
