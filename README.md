@@ -33,6 +33,7 @@ Todo
 * remove JSON processing with stream set to false? Give an error 500 bad request?
 * add an option to specify another model (llama3, gpt4o, mixtral, claude3)
 * make it compatible with busybox shell
+* stickiness of conversations by keeping a conversation ID somewhere like a tmpfile
 
 Links
 =====
