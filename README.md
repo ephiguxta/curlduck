@@ -34,6 +34,7 @@ Todo
 * add an option to specify another model (llama3, gpt4o, mixtral, claude3)
 * make it compatible with busybox shell
 * stickiness of conversations by keeping a conversation ID somewhere like a tmpfile
+* handle french (and other langs) accents
 
 Links
 =====
