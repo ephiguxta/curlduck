@@ -19,7 +19,7 @@ DUCKDUCKGO_STATUS_URL='https://duckduckgo.com/duckchat/v1/status'
 DUCKDUCKGO_CHAT_URL='https://duckduckgo.com/duckchat/v1/chat'
 VQD_RESPONSE=$(curl -s -D - -H "x-vqd-accept: 1" $DUCKDUCKGO_STATUS_URL)
 VQD_VALUE=$(echo "$VQD_RESPONSE" | grep -o "[0-9]-[0-9]\+")
-MODEL="meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
+MODEL="meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 msg=$(curl -s -X POST "$DUCKDUCKGO_CHAT_URL" \
 -H "Content-Type: application/json" \
