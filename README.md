@@ -1,7 +1,3 @@
-!!! Warning: since early february, this script does not work anymore due to an
-update at DuckDuckGo, trying to find time to fix it, any volunteers welcomed
-!!!
-
 Curlduck
 ========
 
