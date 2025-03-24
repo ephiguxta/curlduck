@@ -1,9 +1,7 @@
 Status
 ======
 
-```
-!!! Script is broken, now curl is giving an error: {"action":"error","status":418,"type":"ERR_CHALLENGE","overrideCode":"e1b9","cd":{"cc":"duckchat","e":0,"er":null,"gk":0,"i":"3","iadb":1,"o":"GWOkSmnA4J79K%2FvTOTn0c95l56AXW8Krb6YfguYbMmU%3D%0A","p":"d26b6c6808b94d8c8a9e77612b7a5d39-46f687ae80f54aa99cf6c2e82e12e2fa-dfb0d4b78770498b80245731afc4f0a1-a06773b359e84a95bd67ace74e49a1e7-96af3cf9e79b4ec4ab55ddafaf766109-e17398366a0940bca5c019909f565af5-d488984d1bad453e982e863ada5769d6-e1dea9203d5348ac8045dc13d3850b37-efb9e03dea9c46f9a941639244745e40","q":"","r":"eun","s":"aichat","sc":1}}
-```
+!!! Script is broken, now curl is giving an error, any help welcomed to fix it: {"action":"error","status":418,"type":"ERR_CHALLENGE","overrideCode":"e1b9","cd":{"cc":"duckchat","e":0,"er":null,"gk":0,"i":"3","iadb":1,"o":"GWOkSmnA4J79K%2FvTOTn0c95l56AXW8Krb6YfguYbMmU%3D%0A","p":"d26b6c6808b94d8c8a9e77612b7a5d39-46f687ae80f54aa99cf6c2e82e12e2fa-dfb0d4b78770498b80245731afc4f0a1-a06773b359e84a95bd67ace74e49a1e7-96af3cf9e79b4ec4ab55ddafaf766109-e17398366a0940bca5c019909f565af5-d488984d1bad453e982e863ada5769d6-e1dea9203d5348ac8045dc13d3850b37-efb9e03dea9c46f9a941639244745e40","q":"","r":"eun","s":"aichat","sc":1}}
 
 Curlduck
 ========
